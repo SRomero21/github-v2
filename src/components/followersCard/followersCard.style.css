@@ -1,0 +1,53 @@
+.follow-card {
+  width: 60%;
+  margin: 1.2rem auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(#6166b3, #17d7a0);
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.follow-card > img {
+  width: 40%;
+  margin: 10px auto;
+  border-radius: 50px;
+}
+.follow-card > h4 {
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.a-link{
+    background:#fff ;
+    padding: 8px 8px;
+    color: #000;
+    border: none;
+    outline: none;
+    margin: 12px;
+    cursor: pointer;
+}
+Link{
+    text-decoration: none;
+}
+@media (min-width:1024px){
+  
+  .container{
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+  .follow-card{
+    width: 300px;
+    
+  }
+  #monda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+ 
+}

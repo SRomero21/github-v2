@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #38a3a5, #57cc99);
+  width: 100%;
+  height: 3rem;
+}
+.header-container > h3 {
+  color: #fff;
+  margin: 1rem;
+}
+.navigation{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: .3rem;
+}
+.navigation > button {
+  padding: 10px 8px;
+  background:#57cc99;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}

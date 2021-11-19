@@ -1,0 +1,15 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.formulario > input {
+    padding: 5px 10%;
+    border: 1px solid #80ED99;
+}
+.formulario > button{
+    padding: 5px 15px;
+    border: 1px solid #80ED99;
+    background-color: #57CC99;
+    color: #22577A;
+}
